@@ -7,7 +7,7 @@ import Comparison from "../components/Comparison"
 
 function LandingPage() {
     return (
-        <div className="h-[140vh] bg-[#0B1221] text-white border-2 border-black bg-[url('./assets/bg-img.svg')] bg-[length:100%] bg-no-repeat bg-center">
+        <div className="h-[140vh] bg-[#0B1221] text-white bg-[url('./assets/bg-img.svg')] bg-[length:100%] bg-no-repeat bg-center">
             <Navbar />
             <Hero />
             <Comparison />
