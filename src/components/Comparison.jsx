@@ -13,10 +13,10 @@ function Comparison() {
       </div>
 
       {/* Table */}
-      <div className="flex justify-center px-10">
+      <div className="flex justify-center">
         <table className="border-collapse w-[80vw] text-center bg-opacity-[0.02] bg-transparent bg-white rounded-3xl">
           <thead>
-            <tr className="flex justify-between items-center border-b border-white/20">
+            <tr className="flex justify-between items-center border-b border-white/20 pt-5">
               <th className="flex justify-center items-center w-[26.6vw] border-r h-24 border-white/20">
                 <img src={comp} alt="comparision" />
               </th>
