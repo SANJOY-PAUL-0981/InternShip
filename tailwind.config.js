@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        fontfira: ["Fira Code", "Arial", "sans-serif"],
+        fontRal: ["Raleway", "Poppins", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
