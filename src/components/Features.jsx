@@ -5,7 +5,7 @@ import tune from "../assets/tune.svg"
 
 function Features() {
   return (
-    <div className="bg-[#0B1221] p-10">
+    <div className="bg-[#0B1221] p-10 ">
       <div className="font-fontfira font-bold text-5xl flex justify-center p-10">
         <h1>Our <span className="text-[#E4B40D]">Features</span></h1>
       </div>
