@@ -1,24 +1,82 @@
-function Features () {
-    const features = [
-      { title: "Cheapest TXs", description: "Exchange popular digital currencies at the cheapest possible transaction price." },
-      { title: "CertiK", description: "We are audited by CertiK, the leading security-focused ranking platform." },
-      { title: "No Contract Sells", description: "No contract sells to fund the marketing wallets." },
-      { title: "CrossDex Support", description: "Support for exchanging across multiple chains." },
-    ];
-  
-    return (
-      <div className="py-16 text-white">
-        <h2 className="text-center text-3xl font-bold mb-8">Our Features</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {features.map((feature, idx) => (
-            <div key={idx} className="bg-dark p-6 rounded-lg">
-              <h3 className="text-yellow-500 font-bold">{feature.title}</h3>
-              <p className="mt-2">{feature.description}</p>
-            </div>
-          ))}
-        </div>
+import Dollar from "../assets/Dollar.svg"
+import Phone from "../assets/Phone.svg"
+import Shield from "../assets/Shield.svg"
+import tune from "../assets/tune.svg"
+
+function Features() {
+  return (
+    <div className="bg-[#0B1221] p-10">
+      <div className="font-fontfira font-bold text-5xl flex justify-center p-10">
+        <h1>Our <span className="text-[#E4B40D]">Features</span></h1>
       </div>
-    );
-  };
-  export default Features;
-  
+
+      {/*features*/}
+      <div className="flex gap-16 justify-center">
+
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+          <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
+            <img src={Dollar} alt="dollar" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <p className="text-xl font-fontRal">
+              Cheapest TXs
+            </p>
+            <p className="font-fontRal text-white/80">
+              Exchange popular digital currencies at the cheapest possible transaction price
+            </p>
+          </div>
+        </div>
+
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+          <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
+            <img src={Shield} alt="shield" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <p className="text-xl font-fontRal">
+              CerTIK
+            </p>
+            <p className="font-fontRal text-white/80">
+              We are Audited by Certik. CertiK is the leading security-focused ranking platform to
+            </p>
+          </div>
+        </div>
+
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+
+          <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
+            <img src={Phone} alt="phone" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <p className="text-xl font-fontRal">
+              No Contract Sells
+            </p>
+            <p className="font-fontRal text-white/80">
+              No contract sells to fund the marketing wallets
+            </p>
+          </div>
+        </div>
+
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+          <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
+            <img src={tune} alt="tune" />
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <p className="text-xl font-fontRal">
+              CrossDex Support
+            </p>
+            <p className="font-fontRal text-white/80">
+              Exchange popular digital currencies at the cheapest possible transaction price
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  );
+};
+export default Features;
