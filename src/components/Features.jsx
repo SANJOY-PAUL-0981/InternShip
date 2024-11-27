@@ -13,7 +13,7 @@ function Features() {
       {/*features*/}
       <div className="flex gap-16 justify-center">
 
-        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02] hover:shadow-[-10px_-10px_20px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-all ease-in-out duration-300">
           <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
             <img src={Dollar} alt="dollar" />
           </div>
@@ -28,7 +28,7 @@ function Features() {
           </div>
         </div>
 
-        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02] hover:shadow-[-10px_-10px_20px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-all ease-in-out duration-300">
           <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
             <img src={Shield} alt="shield" />
           </div>
@@ -43,7 +43,7 @@ function Features() {
           </div>
         </div>
 
-        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02] hover:shadow-[-10px_-10px_20px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-all ease-in-out duration-300">
 
           <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
             <img src={Phone} alt="phone" />
@@ -59,7 +59,7 @@ function Features() {
           </div>
         </div>
 
-        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02]">
+        <div className="border-2 w-[270px] h-[270px] rounded-2xl border-white/5 flex flex-col gap-8 px-5 pt-8 bg-white bg-opacity-[0.02] hover:shadow-[-10px_-10px_20px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-all ease-in-out duration-300">
           <div className="bg-white/10 w-14 h-14 rounded-full flex p-3 justify-center items-center">
             <img src={tune} alt="tune" />
           </div>
