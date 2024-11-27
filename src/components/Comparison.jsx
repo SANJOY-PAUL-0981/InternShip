@@ -13,14 +13,14 @@ function Comparison() {
       </div>
 
       {/* Table */}
-      <div className="flex justify-center">
+      <div className="flex justify-center px-10">
         <table className="border-collapse w-[80vw] text-center bg-opacity-[0.02] bg-transparent bg-white rounded-3xl">
           <thead>
-            <tr className="flex justify-between items-center py-3 border-b">
-              <th className="flex justify-center items-center w-[26.6vw] border-r">
+            <tr className="flex justify-between items-center border-b border-white/20">
+              <th className="flex justify-center items-center w-[26.6vw] border-r h-24 border-white/20">
                 <img src={comp} alt="comparision" />
               </th>
-              <th className="pt-3 border-r flex justify-center items-center w-[28.6vw]">
+              <th className="pt-3 border-r flex justify-center items-center w-[28.6vw] h-24 border-white/20">
                 <img src={moonx} alt="logo" />
               </th>
               <th className="flex justify-center items-center w-[26.6vw]">
@@ -29,47 +29,47 @@ function Comparison() {
             </tr>
           </thead>
           <tbody>
-            <tr className="flex justify-between items-center border-b">
-              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r flex justify-start items-center w-[26.6vw]">
+            <tr className="flex justify-between items-center border-b border-white/20">
+              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r border-white/20 flex justify-start items-center w-[26.6vw]">
                 1. Point no one
               </td>
-              <td className="flex justify-center items-center w-[28.6vw] border-r">
+              <td className="flex justify-center items-center w-[28.6vw] border-r border-white/20 h-16">
                 <img src={tick} alt="tick"/>
               </td>
               <td className="text-xl flex justify-center items-center w-[26.6vw]">❌</td>
             </tr>
-            <tr className="flex justify-between items-center border-b">
-              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r flex justify-start items-center w-[26.6vw]">
+            <tr className="flex justify-between items-center border-b border-white/20">
+              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r border-white/20 flex justify-start items-center w-[26.6vw]">
                 2. Point no two this
               </td>
-              <td className="flex justify-center items-center w-[28.6vw] border-r">
+              <td className="flex justify-center items-center w-[28.6vw] border-r border-white/20  h-16">
                 <img src={tick} alt="tick"/>
               </td>
               <td className="text-xl flex justify-center items-center w-[26.6vw]">❌</td>
             </tr>
-            <tr className="flex justify-between items-center border-b">
-              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r flex justify-start items-center w-[26.6vw]">
+            <tr className="flex justify-between items-center border-b border-white/20">
+              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r border-white/20 flex justify-start items-center w-[26.6vw]">
                 3. Point no two this
               </td>
-              <td className="flex justify-center items-center w-[28.6vw] border-r">
+              <td className="flex justify-center items-center w-[28.6vw] border-r border-white/20  h-16">
                 <img src={tick} alt="tick"/>
               </td>
               <td className="text-xl flex justify-center items-center w-[26.6vw]">❌</td>
             </tr>
-            <tr className="flex justify-between items-center border-b">
-              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r flex justify-start items-center w-[26.6vw]">
+            <tr className="flex justify-between items-center border-b border-white/20">
+              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r border-white/20 flex justify-start items-center w-[26.6vw]">
                 3. Point no two this
               </td>
-              <td className="flex justify-center items-center w-[28.6vw] border-r">
+              <td className="flex justify-center items-center w-[28.6vw] border-r border-white/20  h-16">
                 <img src={tick} alt="tick"/>
               </td>
               <td className="text-xl flex justify-center items-center w-[26.6vw]">❌</td>
             </tr>
             <tr className="flex justify-between items-center">
-              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r flex justify-start items-center w-[26.6vw]">
+              <td className="font-normal font-fontfira text-white/80 py-5 px-10 border-r border-white/20 flex justify-start items-center w-[26.6vw]">
                 3. Point no two this
               </td>
-              <td className="flex justify-center items-center w-[28.6vw] border-r">
+              <td className="flex justify-center items-center w-[28.6vw] border-r border-white/20  h-16">
                 <img src={tick} alt="tick"/>
               </td>
               <td className="text-xl flex justify-center items-center w-[26.6vw]">❌</td>
