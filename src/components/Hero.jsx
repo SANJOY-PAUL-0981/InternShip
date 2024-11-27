@@ -14,7 +14,7 @@ function Hero() {
 
 
       <div className="flex gap-10 font-fontRal">
-        <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-400 text-[17px]">
+        <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-200 text-[17px]">
           Connect Wallet
         </button>
         <button className="px-8 py-3 rounded-full text-[#E4B40D] font-semibold border-2 border-[#E4B40D] text-[17px]">
