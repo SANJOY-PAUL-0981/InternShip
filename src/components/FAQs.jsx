@@ -9,7 +9,7 @@ function FAQs() {
   ];
 
   return (
-    <div className="py-16 text-white bg-[#0B1221] flex justify-center">
+    <div className="py-16 text-white bg-[#0B1221] flex justify-center bg-[url('./assets/bg.svg')] bg-[length:100%] bg-no-repeat bg-left">
       <div className="bg-white bg-opacity-[0.03] p-10 rounded-xl w-[60vw]">
         <h2 className="text-center text-4xl font-bold mb-8 font-fontfira text-[#E4B40D]">FAQs</h2>
         <div className="max-w-3xl mx-auto font-fontRal text-xl">

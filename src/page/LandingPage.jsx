@@ -3,7 +3,7 @@ import Hero from "../components/Hero"
 import Comparison from "../components/Comparison"
 import Features from "../components/Features"
 import FAQs from "../components/FAQs"
-//import Footer from "../components/Footer"
+import Footer from "../components/Footer"
 
 function LandingPage() {
     return (
@@ -13,6 +13,7 @@ function LandingPage() {
             <Comparison />
             <Features />
             <FAQs />
+            <Footer />
         </div>
     )
 }

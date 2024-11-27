@@ -8,11 +8,11 @@ function Navbar() {
       </div>
 
       <ul className="flex gap-20">
-        <li className="cursor-pointer">Home</li>
-        <li className="cursor-pointer">About Us</li>
-        <li className="cursor-pointer">Roadmap</li>
-        <li className="cursor-pointer">FAQs</li>
-        <li className="cursor-pointer">Contact Us</li>
+        <li className="cursor-pointer hover:text-[#E4B40D]">Home</li>
+        <li className="cursor-pointer hover:text-[#E4B40D]">About Us</li>
+        <li className="cursor-pointer hover:text-[#E4B40D]">Roadmap</li>
+        <li className="cursor-pointer hover:text-[#E4B40D]">FAQs</li>
+        <li className="cursor-pointer hover:text-[#E4B40D]">Contact Us</li>
       </ul>
 
       <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-200 text-[17px]">
