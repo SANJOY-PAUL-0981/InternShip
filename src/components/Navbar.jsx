@@ -15,7 +15,7 @@ function Navbar() {
         <li className="cursor-pointer hover:text-[#E4B40D]">Contact Us</li>
       </ul>
 
-      <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-200 text-[17px]">
+      <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-200 text-[17px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-yellow-300">
         Connect Wallet
       </button>
     </div>

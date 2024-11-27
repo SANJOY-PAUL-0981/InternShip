@@ -14,12 +14,14 @@ function Hero() {
 
 
       <div className="flex gap-10 font-fontRal">
-        <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-200 text-[17px]">
+        <button className="px-6 py-3 rounded-full text-black font-semibold bg-gradient-to-r from-[#E4B40D] to-yellow-200 text-[17px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-yellow-300">
           Connect Wallet
         </button>
-        <button className="px-8 py-3 rounded-full text-[#E4B40D] font-semibold border-2 border-[#E4B40D] text-[17px]">
+
+        <button className="px-8 py-3 rounded-full text-[#E4B40D] font-semibold border-2 border-[#E4B40D] text-[17px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:text-white hover:bg-[#E4B40D]">
           Trade Crypto
         </button>
+
       </div>
 
     </div>

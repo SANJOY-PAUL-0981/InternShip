@@ -15,9 +15,9 @@ function Footer() {
       <div className="flex flex-col gap-5">
         <p className="font-fontfira font-bold text-3xl">Contact <span className="text-[#E4B40D]">Us</span></p>
         <div className="text-white flex justify-center items-center gap-5 text-3xl">
-          <i className="fa-brands fa-telegram"></i>
-          <i class="fa-brands fa-reddit-alien"></i>
-          <i class="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-telegram duration-200 hover:-translate-y-2 cursor-pointer"></i>
+          <i className="fa-brands fa-reddit-alien duration-200 hover:-translate-y-2 cursor-pointer"></i>
+          <i className="fa-brands fa-twitter duration-200 hover:-translate-y-2 cursor-pointer"></i>
         </div>
       </div>
     </div>

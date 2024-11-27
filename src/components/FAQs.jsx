@@ -20,7 +20,7 @@ function FAQs() {
                 className="flex justify-between cursor-pointer"
               >
                 <h3>{faq.question}</h3>
-                <span>{open === idx ? "-" : "+"}</span>
+                <span className="text-4xl">{open === idx ? "-" : "+"}</span>
               </div>
               <div
                 className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
